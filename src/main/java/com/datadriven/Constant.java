@@ -24,5 +24,7 @@ public class Constant {
 			+ "TestData" + File.separator;
 
 	public static final String File_TestData = "testdata.xlsx";
+	public static final String File_TestData1 = "testdata.xlsx";
+
 
 }

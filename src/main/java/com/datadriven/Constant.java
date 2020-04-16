@@ -18,7 +18,7 @@ public class Constant {
 
 	public static final String Password2 = "Test@123";
 	/*Added by Babu
-	*/
+	 */
 	public static final String Password3 = "Test@123";
 	public static Path currentRelativePath = Paths.get("");
 
@@ -27,10 +27,10 @@ public class Constant {
 
 	public static final String File_TestData = "testdata.xlsx";
 	public static final String File_TestData6 = "testdata.xlsx";
-/*
-* Added by tony
- */
-public static final String FileExcel = "testdata.xlsx";
+	/*
+	 * Added by tony
+	 */
+	public static final String FileExcel = "testdata.xlsx";
 
 	/*
 	*Added method by babu
@@ -54,6 +54,32 @@ public static final String FileExcel = "testdata.xlsx";
 			throw (e);
 
 		}
+
+	/*
+	 *Added method by babu
+	 */
+	public static void setExcelFile(String Path,String SheetName) throws Exception {
+
+		try {
+
+			// Open the Excel file
+
+			FileInputStream ExcelFile1 = new FileInputStream(Path);
+
+			// Access the required test data sheet
+
+			ExcelWBook = new XSSFWorkbook(ExcelFile1);
+
+			ExcelWSheet = ExcelWBook.getSheet(SheetName);
+
+		} catch (Exception e){
+
+			throw (e);
+
+		}
+
+	}
+
 
 }
 	

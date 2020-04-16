@@ -17,7 +17,9 @@ public class Constant {
 	public static final String Username1 = "testuser_1";
 
 	public static final String Password2 = "Test@123";
-
+	/*Added by Babu
+	*/
+	public static final String Password3 = "Test@123";
 	public static Path currentRelativePath = Paths.get("");
 
 	public static final String Path_TestData = currentRelativePath.toAbsolutePath().toString() + File.separator

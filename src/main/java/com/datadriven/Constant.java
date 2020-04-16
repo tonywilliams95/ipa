@@ -64,11 +64,11 @@ public class Constant {
 
 			// Open the Excel file
 
-			FileInputStream ExcelFile1 = new FileInputStream(Path);
+			FileInputStream ExcelFile2 = new FileInputStream(Path);
 
 			// Access the required test data sheet
 
-			ExcelWBook = new XSSFWorkbook(ExcelFile1);
+			ExcelWBook = new XSSFWorkbook(ExcelFile2);
 
 			ExcelWSheet = ExcelWBook.getSheet(SheetName);
 

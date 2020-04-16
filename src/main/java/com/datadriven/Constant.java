@@ -27,6 +27,9 @@ public class Constant {
 
 	public static final String File_TestData = "testdata.xlsx";
 	public static final String File_TestData6 = "testdata.xlsx";
-
+/*
+* Added by tony
+ */
+public static final String FileExcel = "testdata.xlsx";
 
 }

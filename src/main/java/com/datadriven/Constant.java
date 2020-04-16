@@ -5,7 +5,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 /**
- * Added Comment
+ * Added Comment Additionally
  */
 public class Constant {
 
@@ -14,6 +14,9 @@ public class Constant {
 	public static final String Username = "testuser_1";
 
 	public static final String Password = "Test@123";
+	public static final String Username1 = "testuser_1";
+
+	public static final String Password2 = "Test@123";
 
 	public static Path currentRelativePath = Paths.get("");
 

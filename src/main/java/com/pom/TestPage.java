@@ -1,3 +1,4 @@
-/**
-*Test Page
-*/
+package com.pom;
+
+public class TestPage {
+}

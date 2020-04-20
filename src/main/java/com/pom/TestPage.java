@@ -1,4 +1,4 @@
 package com.pom;
 
-public class TestPage {
+public class TestPage1 {
 }

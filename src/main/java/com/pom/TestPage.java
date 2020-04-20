@@ -1,4 +1,8 @@
 package com.pom;
 
-public class TestPage1 {
+public class TestPage {
+    /**
+     * sddf
+     */
+
 }
